@@ -27,4 +27,12 @@ let newarr=arr3.reduce((h1,h2)=>{
     return h1+h2
 })
 
-console.log(newarr);
+// console.log(newarr);
+
+let arr4=[5,6,8,10,12,4];
+
+let newar=arr4.reduce((h1,h2)=>{
+    return h1*h2
+})
+
+console.log(newar);
